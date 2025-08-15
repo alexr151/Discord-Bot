@@ -7,13 +7,6 @@ import os
 from datetime import datetime, timedelta
 import logging
 
-
-os.environ['DISCORD_CHANNEL_ID'] = '880246533549871165'
-os.environ['STRAVA_CLIENT_ID'] = '171245'
-os.environ['STRAVA_CLIENT_SECRET'] = '91cf23a811fae1c6d6b24311238c564361a2b03b'
-os.environ['DISCORD_BOT_TOKEN'] = 'MTQwMjA5NTU1NjYwMzY3ODgwMQ.G9TybH.IcSC8D6BJvwpw-3HpyM06VXktSrbOFziYQTWOs'
-
-
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
